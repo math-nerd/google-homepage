@@ -4,69 +4,56 @@
         <title>Google</title>
         <link rel="stylesheet" href="styles.css">
     </head>
+
     <body>
         <div class="navbar">
             <div id="link">
-                <a href="#images">Images</a> 
+                <a href="#gmail">Gmail</a> 
             </div>
             <div id="gmail">
-                <a href="#gmail">Gmail</a>
+                <a href="#images">Images</a>
             </div>  
-            <div class="dropdown">
-                <button class="dropbtm">
-                    <img src="images/outline_apps_black_24dp.png"><i class="fa fa-caret-down"></i>
-                </button>
-                <!-- 
-                <div class="dripdown-content">
-                    <a href="#Account">Account</a>
-                    <a href="#Search">Search</a>
-                    <a href="#Maps">Maps</a>
-                    <a href="#YouTube">YouTube</a>
-                    <a href="#Play">Play</a>
-                    <a href="#News">News</a>
-                    <a href="#Gmail">Gmail</a>
-                    <a href="#Meet">Meet</a>
-                    <a href="#Contacts">Contacts</a>
-                    <a href="#Drive">Drive</a>
-                    <a href="#Calendar">Calendar</a>
-                    <a href="#Translate">Translate</a>
-                </div> -->
+            <div id="dropdown">
+                   <a href="#apps"><img src="images/outline_apps_black_24dp.png"></a> 
             </div>
-            
+            <div>
+                <img id="user" src="images/signin.png" alt="Google account">
+            </div>
         </div>
+
         <main>
             <div>
                 <img class="logo" src="images/Google_2015_logo.svg.png" alt="Google logo">
             </div>
             <div class="searchbar">
+                <img src="images/outline_search_black_24dp.png" class="loupe">
                 <label>
-                <input type="text" placeholder=" " required>   
+                <input id="srbr" type="text" title="Search">   
                 </label>
             </div> 
             <div class="butts">
                 <button type="submit">Google Search</button> 
-                <button type="submit">I'm feeling lucky</button>
+                <button type="submit">I'm Feeling Lucky</button>
             </div>
-            
+            <div class="lang">
+                Google offered in: <a href="#">Français</a>    <a href="#">العربية</a>
+            </div>
         </main>
-        <div>
-            Google offered in: <a href="#">Français</a>, <a href="#">Arabic</a>
-        </div>
-        <footer>
-            <div>
+        
+        <footer style="clear: both;">
+            <div class="location">Algeria</div>
+            <div class="toleft">
                 <a href="#about">About</a>
-            </div>
-            <div>
                 <a href="#Add">Advertising</a>
-            </div>
-            <div>
                 <a href="#business">Business</a>
+                <a href="#howitworks">How search works</a>
+            </div>
+            <div class="toright">
+                <a href="#privacy">Privacy</a>
+                <a href="#terms">Terms</a>
+                <a href="#settings">Settings</a>
             </div>
             
-            <a href="#howitworks">How search works</a>
-            <a href="#privacy">Privacy</a>
-            <a href="#terms">Terms</a>
-            <a href="#settings">Settings</a>
         </footer>
     </body>
 </html>
